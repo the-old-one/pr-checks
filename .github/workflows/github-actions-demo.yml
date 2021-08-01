@@ -1,0 +1,7 @@
+- name: Create comment
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: 1
+          body: |
+            This is an automatic comment
+            - [ ] This code is secure
